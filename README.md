@@ -2,7 +2,7 @@
 
 Animal quiz.
 
-Built mainly to putogether a game which includes a scoring system and utilizes object-oriented programming.
+Built mainly to create a quiz which includes a scoring system and utilizes object-oriented programming.
 
 ## Do I have python3?
 
