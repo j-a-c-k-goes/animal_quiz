@@ -11,10 +11,6 @@ class Question:
     def __init__(self, question, answer):
         self.question = question
         self.answer = answer
-    def _question(self):
-        return self.question   
-    def _answer(self):
-        return self.answer
     def check_guess(self, answer, guess):
         global score
         still_guessing = True
@@ -22,7 +18,7 @@ class Question:
        # --- BEGIN MAKING GUESSES ---
         while still_guessing and attempt < 3:
             # --- CORRECT ANSWER---
-            if guess.lower() == self.answer.lower():
+            if guess.lower() == answer.lower():
                 score += 3 - attempt
                 still_guessing = False
                 # --- SCORE IS 1 ---
